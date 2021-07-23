@@ -1,11 +1,13 @@
 # VK polls
 
+Interview assignment for vk done over a weekend: feed with authentication via vk where you can create and respond to polls.
+
 #### Done
 - [x] Auth via VK with JWT for authenticating requests from frontend
 - [x] Single feed which lazily loads polls on scrolling
 - [x] Multi-answer and single-answer polls
 - [x] Anonymous and public polls
-- [x] Caching of all info needed to show polls (user info, votes, options), caching of order of last 10 polls in the feed
+- [x] Caching of all of the info needed to show polls (user info, votes, options)
 
 #### TODO
 - [ ] Unit tests for backend
@@ -22,7 +24,7 @@
 - [ ] and so much more...
 ## Structure
 
-Laravel is mostly used for routing, migrations and hooking up of mysql and memcached via facades.
+Laravel is mostly used for routing, migrations and hooking up mysql and memcached via facades.
 
 - DB schema is in **database/migrations/**.
 - Model classes with helper caching methods are in **app/**
