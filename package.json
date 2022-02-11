@@ -23,7 +23,7 @@
         "redux-devtools": "^3.4.1"
     },
     "dependencies": {
-        "ajv": "^6.5.4",
+        "ajv": "^6.12.3",
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
         "babel-plugin-transform-class-properties": "^6.24.1",
